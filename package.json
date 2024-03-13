@@ -1,0 +1,28 @@
+{
+  "name": "fastify-typescript-vercel",
+  "version": "1.0.0",
+  "main": "dist/serverless.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "dev:vercel": "tsup --watch & vercel dev --listen 5005"
+  },
+  "keywords": [
+    "fastify",
+    "typescript",
+    "tsup",
+    "vercel"
+  ],
+  "author": "devlulcas",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "zod": "^3.22.4"
+  }
+}
