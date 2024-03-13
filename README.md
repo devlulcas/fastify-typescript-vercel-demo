@@ -1,5 +1,7 @@
 # Fastify Serverless na Vercel com TypeScript usando ESM (ES6 Modules)
 
+> Fastify + TypeScript + Vercel + ESM + TSUP + Serverless Functions + Skill issues
+
 Este projeto é uma demonstração de como criar uma API com Fastify e TypeScript e fazer o deploy na Vercel.
 
 A api é bem simples, ela apenas retorna um objeto com uma mensagem na rota raiz e na rota `/api/v1/hello` ela retorna um objeto com uma mensagem e o nome que foi passado como parâmetro na query string.
